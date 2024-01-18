@@ -56,3 +56,24 @@
     display: block;
     width: 80%;
 }
+
+@media (min-width:320px) and (max-width:1200px) {
+    .portfolio__containter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio__item {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .portfolio .button {
+        display: block;
+        width: 50%;
+    }
+
+}
