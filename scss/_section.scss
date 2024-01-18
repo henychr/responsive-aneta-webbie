@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    color: $color-text-grey;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
 .heading {
     font-size: 5rem;
     text-align: center;

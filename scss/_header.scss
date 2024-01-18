@@ -5,19 +5,23 @@
     text-align: center;
     margin-top: 20vh;
     padding-top: 10rem;
+
+    .header__title {
+        font-size: 4rem;
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+
+    .header__desc {
+        font-size: 3rem;
+        font-weight: normal;
+        margin-top: 0;
+    }
 }
 
-.header__title {
-    font-size: 4rem;
-    font-weight: normal;
-    margin-bottom: 0;
-}
 
-.header__desc {
-    font-size: 3rem;
-    font-weight: normal;
-    margin-top: 0;
-}
+
+
 
 .header__link {
     color: #54be90;
