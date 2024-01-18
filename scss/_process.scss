@@ -1,0 +1,41 @@
+.process {
+    background-color: #ebebeb;
+    padding-top: 5rem;
+}
+
+.process__quote {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.process__container {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #232323;
+    padding: 6rem 15% 3rem 15%;
+}
+
+.process__item {
+    width: 20%;
+    font-size: 1.25rem;
+    text-align: center;
+    position: relative;
+}
+
+.process__circle {
+    width: 8rem;
+    height: 8rem;
+    background-color: #ebebeb;
+    border-radius: 100%;
+    position: absolute;
+    top: -10rem;
+    left: 25%;
+}
+
+.process__title {
+    color: #54be90;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
