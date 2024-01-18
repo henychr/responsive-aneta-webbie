@@ -1,41 +1,65 @@
 .process {
     background-color: #ebebeb;
     padding-top: 5rem;
-}
 
-.process__quote {
-    font-size: 1.75rem;
-    text-align: center;
-    margin-bottom: 5rem;
-}
+    .process__quote {
+        font-size: 1.75rem;
+        text-align: center;
+        margin-bottom: 5rem;
 
-.process__container {
-    display: flex;
-    justify-content: space-between;
-    color: #ffffff;
-    background-color: #232323;
-    padding: 6rem 15% 3rem 15%;
-}
+        @media (min-width:320px) and (max-width:1200px) {
+            font-size: 1.5rem;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    }
 
-.process__item {
-    width: 20%;
-    font-size: 1.25rem;
-    text-align: center;
-    position: relative;
-}
+    .process__container {
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        background-color: #232323;
+        padding: 6rem 15% 3rem 15%;
 
-.process__circle {
-    width: 8rem;
-    height: 8rem;
-    background-color: #ebebeb;
-    border-radius: 100%;
-    position: absolute;
-    top: -10rem;
-    left: 25%;
-}
+        @media (min-width:320px) and (max-width:1200px) {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
 
-.process__title {
-    color: #54be90;
-    font-size: 1.75rem;
-    font-weight: 800;
+        }
+
+            .process__item {
+                width: 20%;
+                font-size: 1.25rem;
+                text-align: center;
+                position: relative;
+                @media (min-width:320px) and (max-width:1200px) {
+                    width:80%;
+                }
+
+                .process__circle {
+                    width: 8rem;
+                    height: 8rem;
+                    background-color: #ebebeb;
+                    border-radius: 100%;
+                    position: absolute;
+                    top: -10rem;
+                    left: 25%;
+
+                    @media (min-width:320px) and (max-width:1200px) {
+                        display: none;
+                    }
+                }
+
+                .process__title {
+                    color: #54be90;
+                    font-size: 1.75rem;
+                    font-weight: 800;
+                }
+                
+            }
+        
+
+    }
+
 }

@@ -6,30 +6,37 @@
     margin-top: 20vh;
     padding-top: 10rem;
 
+    @media (min-width:320px) and (max-width:1200px) {
+        height: 40vh;
+        margin-top: 10vh;
+
+    }
+
     .header__title {
         font-size: 4rem;
         font-weight: normal;
         margin-bottom: 0;
+
+        @media (min-width:320px) and (max-width:1200px) {
+            margin-top: 120px;
+        }
+
+        .header__link {
+            color: #54be90;
+            border-bottom: 5px solid #ebebeb;
+            font-weight: bold;
+            text-decoration: none;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
     }
 
     .header__desc {
         font-size: 3rem;
         font-weight: normal;
-        margin-top: 0;
+        margin-top: 0px;
     }
-}
-
-
-
-
-
-.header__link {
-    color: #54be90;
-    border-bottom: 5px solid #ebebeb;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.header__link:hover {
-    opacity: 0.8;
 }
